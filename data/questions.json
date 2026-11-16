@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Quais etapas vêm antes da alvenaria?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Qual material é utilizado na concretagem?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Que inspeção avalia a concretagem?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Qual documento especifica a concretagem?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Quais requisitos estão ligados à inspeção do concreto?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Qual é a sequência de etapas da Obra Horizonte?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "A etapa de fundação precede a alvenaria diretamente ou indiretamente?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Que serviços pertencem à etapa de estrutura?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Há registros de não conformidade relacionados à concretagem?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Quais documentos mencionam o Concreto C30?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Quais serviços usam o Concreto C30?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Que etapa deve ser concluída antes da estrutura?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Qual documento descreve a inspeção do concreto?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Existe uma versão substituta do memorial descritivo?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Que caminhos ligam a Obra Horizonte à alvenaria?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Há materiais vinculados diretamente à fundação?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Quais inspeções têm requisitos documentados?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Qual é a origem das relações entre etapas?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Quais informações estão ausentes sobre fornecedores?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  },
+  {
+    "question": "Que evidências fundamentam a relação entre concretagem e Concreto C30?",
+    "expected_sources": [],
+    "needs_manual_review": true
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "label": "Obra",
+      "id": "obra-horizonte",
+      "name": "Obra Horizonte"
+    },
+    {
+      "label": "Etapa",
+      "id": "fundacao",
+      "name": "Fundação"
+    },
+    {
+      "label": "Etapa",
+      "id": "estrutura",
+      "name": "Estrutura"
+    },
+    {
+      "label": "Etapa",
+      "id": "alvenaria",
+      "name": "Alvenaria"
+    },
+    {
+      "label": "Servico",
+      "id": "concretagem",
+      "name": "Concretagem"
+    },
+    {
+      "label": "Material",
+      "id": "concreto-c30",
+      "name": "Concreto C30"
+    },
+    {
+      "label": "Servico",
+      "id": "inspecao-concreto",
+      "name": "Inspeção do concreto"
+    },
+    {
+      "label": "Requisito",
+      "id": "ensaio-resistencia",
+      "name": "Ensaio de resistência"
+    },
+    {
+      "label": "Documento",
+      "id": "memorial-v1",
+      "name": "Memorial descritivo v1"
+    },
+    {
+      "label": "Documento",
+      "id": "procedimento-v1",
+      "name": "Procedimento de concretagem v1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "obra-horizonte",
+      "type": "CONTEM_ETAPA",
+      "target": "fundacao"
+    },
+    {
+      "source": "obra-horizonte",
+      "type": "CONTEM_ETAPA",
+      "target": "estrutura"
+    },
+    {
+      "source": "obra-horizonte",
+      "type": "CONTEM_ETAPA",
+      "target": "alvenaria"
+    },
+    {
+      "source": "fundacao",
+      "type": "PRECEDE",
+      "target": "estrutura"
+    },
+    {
+      "source": "estrutura",
+      "type": "PRECEDE",
+      "target": "alvenaria"
+    },
+    {
+      "source": "concretagem",
+      "type": "UTILIZA",
+      "target": "concreto-c30"
+    },
+    {
+      "source": "concretagem",
+      "type": "PERTENCE_A",
+      "target": "estrutura"
+    },
+    {
+      "source": "inspecao-concreto",
+      "type": "AVALIA",
+      "target": "concretagem"
+    },
+    {
+      "source": "inspecao-concreto",
+      "type": "EXIGE",
+      "target": "ensaio-resistencia"
+    },
+    {
+      "source": "memorial-v1",
+      "type": "ESPECIFICA",
+      "target": "concretagem"
+    },
+    {
+      "source": "procedimento-v1",
+      "type": "ESPECIFICA",
+      "target": "inspecao-concreto"
+    }
+  ],
+  "documents": [
+    {
+      "id": "memorial",
+      "title": "Memorial descritivo v1",
+      "text": "A Obra Horizonte compreende fundação, estrutura e alvenaria. A fundação precede a estrutura, e a estrutura precede a alvenaria. A concretagem da estrutura utiliza Concreto C30.",
+      "version": "1.0"
+    },
+    {
+      "id": "procedimento",
+      "title": "Procedimento de concretagem v1",
+      "text": "A inspeção do concreto avalia a concretagem e exige ensaio de resistência. A verificação do procedimento deve ser feita por profissional habilitado.",
+      "version": "1.0"
+    }
+  ]
+}

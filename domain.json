@@ -1,0 +1,32 @@
+{
+  "title": "GraphRAG/KAG — Construção Civil",
+  "domain": "construção civil",
+  "labels": [
+    "Obra",
+    "Edificacao",
+    "Pavimento",
+    "Ambiente",
+    "Etapa",
+    "Servico",
+    "Material",
+    "Fornecedor",
+    "Equipe",
+    "Documento",
+    "Requisito",
+    "Inspecao",
+    "NaoConformidade"
+  ],
+  "relations": [
+    "CONTEM_ETAPA",
+    "PRECEDE",
+    "UTILIZA",
+    "OCORRE_EM",
+    "ESPECIFICA",
+    "AVALIA",
+    "AFETA",
+    "SUBSTITUI",
+    "PERTENCE_A",
+    "EXIGE"
+  ],
+  "warning": "Dados sintéticos. Não utilizar como orientação de execução, aprovação normativa ou dimensionamento estrutural."
+}
